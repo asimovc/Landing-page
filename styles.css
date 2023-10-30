@@ -3,7 +3,11 @@
 body {
 	font-family: "Roboto", sans-serif;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
+
+/* HEADER SECTION */
 
 .header {
 	background-color: #1F2937;
@@ -30,4 +34,16 @@ ul {
 
 li {
 	list-style-type: none;
+}
+
+/* BODY SECTION */
+
+/* FOOTER SECTION*/
+
+.footer {
+	background-color: #1F2937;
+	color: #F9FAF8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
