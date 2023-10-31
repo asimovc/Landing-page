@@ -48,14 +48,14 @@ a {
 	gap: 180px;
 }
 
-.hr-text {
+.hr-txt {
 	max-width: 450px;
 }
 
 .hr-main {
 	color: #F9FAF8;
 	font-size: 48px;
-	font-weight: bold;
+	font-weight: 900;
 }
 
 .hr-secondary {
@@ -77,6 +77,36 @@ a {
 .hr-img {
 	border-radius: 20px;
 	width: 600px;
+}
+
+/* CONTENT SECTION */
+
+.content {
+	padding: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.txt-content {
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: 900;
+	margin-bottom: 55px;
+}
+
+.sqr-content {
+	display: flex;
+	justify-contente: center;
+	gap: 60px;
+}
+
+.square {
+	border: 4px solid #3882F6;
+	border-radius: 20px;
+	width: 160px;
+	height: 160px;
 }
 
 /* FOOTER SECTION*/
