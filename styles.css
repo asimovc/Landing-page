@@ -14,9 +14,10 @@ body {
 
 .header {
 	background-color: #1F2937;
+	padding: 20px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: baseline;
 	gap: 650px;
 }
 
@@ -37,7 +38,46 @@ a {
 	text-decoration: none;
 }
 
-/* BODY SECTION */
+/* HERO SECTION */
+
+.hero {
+	background-color: #1F2937;
+	padding: 120px;
+	display: flex;
+	justify-content: center;
+	gap: 180px;
+}
+
+.hr-text {
+	max-width: 450px;
+}
+
+.hr-main {
+	color: #F9FAF8;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hr-secondary {
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+.hr-button {
+	color: white;
+	background-color: #3882F6;
+	font-size: 18px;
+	font-weight: bold;
+	border: 0px; 
+	border-radius: 8px;
+	padding: 8px 32px;
+	margin-top: 10px
+}
+
+.hr-img {
+	border-radius: 20px;
+	width: 600px;
+}
 
 /* FOOTER SECTION*/
 
