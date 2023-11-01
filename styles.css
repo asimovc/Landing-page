@@ -126,8 +126,55 @@ a {
 
 .quote {
 	background-color: #E5E7EB;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 120px;
+	gap: 20px;
+} 
+
+.quote-txt {
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: 300;
 }
 
+b {
+	font-size: 20px;
+	padding-left: 1000px;
+}
+
+/* SIGN-UP SECTION */
+
+.signup {
+	background-color: #3882F6;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	gap: 500px;
+	padding: 30px;
+	margin: 100px;
+	border-radius: 10px;
+}
+
+.signup-txt {
+	color: white;
+}
+
+h2 {
+	margin-bottom: 1px;	
+}
+
+.signup-button {
+	color: white;
+	background-color: #3882F6;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 5px 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
 
 /* FOOTER SECTION*/
 
