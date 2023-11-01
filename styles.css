@@ -153,7 +153,7 @@ b {
 	justify-content: center;
 	align-items: end;
 	gap: 500px;
-	padding: 30px;
+	padding: 50px;
 	margin: 100px;
 	border-radius: 10px;
 }
@@ -163,7 +163,7 @@ b {
 }
 
 h2 {
-	margin-bottom: 1px;	
+	margin: 0px;
 }
 
 .signup-button {
